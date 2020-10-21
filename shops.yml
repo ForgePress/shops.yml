@@ -1,0 +1,3722 @@
+#This is the shops.yml configuration, here you can customize every item in the shop how you like.
+
+#You can find all different items/options you can use in the 'example items.txt' file.
+
+#For more information on how to configure this see the wiki of EconomyShopGUI
+#https://app.gitbook.com/@gpplugins/s/economyshopgui/economyshopgui-configuration/configuration-of-shops.yml
+
+#==================== Blocks ====================#
+
+Blocks:
+
+  1:
+    material: "BOOKSHELF"
+    displayname: "Bookshelf"
+    buy: 119.12
+    sell: -1
+  2:
+    material: "HAY_BLOCK"
+    displayname: "Hay Bale"
+    buy: 10
+    sell: 5
+  3:
+    material: "HONEY_BLOCK"
+    displayname: "Honey Block"
+    buy: 20
+    sell: 10
+  4:
+    material: "MAGMA_BLOCK"
+    displayname: "Magma Block"
+    buy: 33.63
+    sell: 3
+  5:
+    material: "PACKED_ICE"
+    displayname: "Packed Ice"
+    buy: 28.35
+    sell: 3
+  6:
+    material: "SLIME_BLOCK"
+    displayname: "Slime Block"
+    buy: 47.25
+    sell: 20
+  7:
+    material: "SNOW_BLOCK"
+    displayname: "Snow Block"
+    buy: 12.6
+    sell: 2
+  8:
+    material: "SOUL_SAND"
+    displayname: "Soul Sand"
+    buy: 10
+    sell: 2
+  9:
+    material: "STONE"
+    displayname: "Stone"
+    buy: 0.72
+    sell: .50
+  10:
+    material: "TNT"
+    displayname: "TNT"
+    buy: 106.58
+    sell: 50
+  11:
+    material: "GLOWSTONE"
+    displayname: "Glowstone"
+    buy: 29.4
+    sell: 5
+  12:
+    material: "SEA_LANTERN"
+    displayname: "Sea Lantern"
+    buy: 66.15
+    sell: 20
+  13:
+    material: "SHROOMLIGHT"
+    displayname: "Shroomlight"
+    buy: 8
+    sell: 2
+  14:
+    material: "ANDESITE"
+    displayname: "Andesite"
+    buy: 22.51
+    sell: 2
+  15:
+    material: "POLISHED_ANDESITE"
+    displayname: "Polished Andesite"
+    buy: 23.64
+    sell: 4
+  16:
+    material: "POLISHED_ANDESITE_SLAB"
+    displayname: "Polished Andesite Slab"
+    buy: 12.41
+    sell: 3
+  17:
+    material: "POLISHED_ANDESITE_STAIRS"
+    displayname: "Polished Andesite Stairs"
+    buy: 37.23
+    sell: 3
+  18:
+    material: "BLACKSTONE"
+    displayname: "Blackstone"
+    buy: 0.75
+    sell: .10
+  19:
+    material: "POLISHED_BLACKSTONE"
+    displayname: "Polished Blackstone"
+    buy: 0.79
+    sell: .11
+  20:
+    material: "POLISHED_BLACKSTONE_BRICK_SLAB"
+    displayname: "Polished Blackstone Brick Slab"
+    buy: 0.44
+    sell: .11
+  21:
+    material: "POLISHED_BLACKSTONE_BRICK_STAIRS"
+    displayname: "Polished Blackstone Brick Stairs"
+    buy: 1.31
+    sell: .20
+  22:
+    material: "POLISHED_BLACKSTONE_BRICKS"
+    displayname: "Polished Blackstone Bricks"
+    buy: 0.83
+    sell: .20
+  23:
+    material: "BRICK_SLAB"
+    displayname: "Brick Slab"
+    buy: 48.63
+    sell: 5
+  24:
+    material: "BRICK_STAIRS"
+    displayname: "Brick Stairs"
+    buy: 145.87
+    sell: 15
+  25:
+    material: "BRICKS"
+    displayname: "Bricks"
+    buy: 92.61
+    sell: 10
+  26:
+    material: "BASALT"
+    displayname: "Basalt"
+    buy: 40
+    sell: 1
+  27:
+    material: "COBBLESTONE"
+    displayname: "Cobblestone"
+    buy: 0.68
+    sell: .10
+  28:
+    material: "MOSSY_COBBLESTONE"
+    displayname: "Mossy Cobblestone"
+    buy: 8.07
+    sell: -1
+  29:
+    material: "BLACK_CONCRETE"
+    displayname: "Black Concrete"
+    buy: 8.82
+    sell: -1
+  30:
+    material: "BLUE_CONCRETE"
+    displayname: "Blue Concrete"
+    buy: 9.71
+    sell: -1
+  31:
+    material: "BROWN_CONCRETE"
+    displayname: "Brown Concrete"
+    buy: 8.55
+    sell: -1
+  32:
+    material: "CYAN_CONCRETE"
+    displayname: "Cyan Concrete"
+    buy: 7.81
+    sell: -1
+  33:
+    material: "GRAY_CONCRETE"
+    displayname: "Gray Concrete"
+    buy: 8.61
+    sell: -1
+  34:
+    material: "GREEN_CONCRETE"
+    displayname: "Green Concrete"
+    buy: 7.74
+    sell: -1
+  35:
+    material: "LIGHT_BLUE_CONCRETE"
+    displayname: "Light Blue Concrete"
+    buy: 7.87
+    sell: -1
+  36:
+    material: "LIGHT_GRAY_CONCRETE"
+    displayname: "Light Gray Concrete"
+    buy: 7.87
+    sell: -1
+  37:
+    material: "LIME_CONCRETE"
+    displayname: "Lime Concrete"
+    buy: 39.36
+    sell: -1
+  38:
+    material: "MAGENTA_CONCRETE"
+    displayname: "Magenta Concrete"
+    buy: 33.58
+    sell: -1
+  39:
+    material: "ORANGE_CONCRETE"
+    displayname: "Orange Concrete"
+    buy: 33.58
+    sell: -1
+  40:
+    material: "PINK_CONCRETE"
+    displayname: "Pink Concrete"
+    buy: 33.58
+    sell: -1
+  41:
+    material: "PURPLE_CONCRETE"
+    displayname: "Purple Concrete"
+    buy: 33.63
+    sell: -1
+  42:
+    material: "RED_CONCRETE"
+    displayname: "Red Concrete"
+    buy: 7.87
+    sell: -1
+  43:
+    material: "WHITE_CONCRETE"
+    displayname: "White Concrete"
+    buy: 8.59
+    sell: -1
+  44:
+    material: "YELLOW_CONCRETE"
+    displayname: "Yellow Concrete"
+    buy: 7.82
+    sell: -1
+  45:
+    material: "DIORITE"
+    displayname: "Diorite"
+    buy: 42.2
+    sell: -1
+  46:
+    material: "POLISHED_DIORITE"
+    displayname: "Polished Diorite"
+    buy: 44.31
+    sell: -1
+  47:
+    material: "POLISHED_DIORITE_SLAB"
+    displayname: "Polished Diorite Slab"
+    buy: 23.26
+    sell: -1
+  48:
+    material: "POLISHED_DIORITE_STAIRS"
+    displayname: "Polished Diorite Stairs"
+    buy: 69.78
+    sell: -1
+  49:
+    material: "CLAY"
+    displayname: "Clay"
+    buy: 21
+    sell: -1
+  50:
+    material: "CRIMSON_NYLIUM"
+    displayname: "Crimson Nylium"
+    buy: 6
+    sell: -1
+  51:
+    material: "DIRT"
+    displayname: "Dirt"
+    buy: 3
+    sell: -1
+  52:
+    material: "GRASS_BLOCK"
+    displayname: "Grass Block"
+    buy: 8
+    sell: -1
+  53:
+    material: "GRAVEL"
+    displayname: "Gravel"
+    buy: 8
+    sell: -1
+  54:
+    material: "MYCELIUM"
+    displayname: "Mycelium"
+    buy: 8
+    sell: -1
+  55:
+    material: "PODZOL"
+    displayname: "Podzol"
+    buy: 8
+    sell: -1
+  56:
+    material: "WARPED_NYLIUM"
+    displayname: "Warped Nylium"
+    buy: 6
+    sell: -1
+  57:
+    material: "END_STONE"
+    displayname: "End Stone"
+    buy: 5
+    sell: -1
+  58:
+    material: "END_STONE_BRICK_SLAB"
+    displayname: "End Stone Brick Slab"
+    buy: 2.76
+    sell: -1
+  59:
+    material: "END_STONE_BRICK_STAIRS"
+    displayname: "End Stone Brick Stairs"
+    buy: 8.27
+    sell: -1
+  60:
+    material: "END_STONE_BRICKS"
+    displayname: "End Stone Bricks"
+    buy: 5.25
+    sell: -1
+  61:
+    material: "GLASS"
+    displayname: "Glass"
+    buy: 6.3
+    sell: -1
+  62:
+    material: "GLASS_PANE"
+    displayname: "Glass Pane"
+    buy: 2.49
+    sell: -1
+  63:
+    material: "GRANITE"
+    displayname: "Granite"
+    buy: 94.09
+    sell: -1
+  64:
+    material: "POLISHED_GRANITE"
+    displayname: "Polished Granite"
+    buy: 98.8
+    sell: -1
+  65:
+    material: "POLISHED_GRANITE_SLAB"
+    displayname: "Polished Granite Slab"
+    buy: 51.87
+    sell: -1
+  66:
+    material: "POLISHED_GRANITE_STAIRS"
+    displayname: "Polished Granite Stairs"
+    buy: 155.6
+    sell: -1
+  67:
+    material: "NETHERRACK"
+    displayname: "Netherrack"
+    buy: 0.2
+    sell: -1
+  68:
+    material: "NETHER_BRICK_SLAB"
+    displayname: "Nether Brick Slab"
+    buy: 0.47
+    sell: -1
+  69:
+    material: "NETHER_BRICK_STAIRS"
+    displayname: "Nether Brick Stairs"
+    buy: 1.39
+    sell: -1
+  70:
+    material: "NETHER_BRICKS"
+    displayname: "Nether Bricks"
+    buy: 0.89
+    sell: -1
+  71:
+    material: "RED_NETHER_BRICK_SLAB"
+    displayname: "Red Nether Brick Slab"
+    buy: 4.28
+    sell: -1
+  72:
+    material: "RED_NETHER_BRICK_STAIRS"
+    displayname: "Red Nether Brick Stairs"
+    buy: 12.84
+    sell: -1
+  73:
+    material: "RED_NETHER_BRICKS"
+    displayname: "Red Nether Bricks"
+    buy: 8.16
+    sell: -1
+  74:
+    material: "CRYING_OBSIDIAN"
+    displayname: "Crying Obsidian"
+    buy: 62.5
+    sell: -1
+  75:
+    material: "OBSIDIAN"
+    displayname: "Obsidian"
+    buy: 31.25
+    sell: -1
+  76:
+    material: "PRISMARINE"
+    displayname: "Prismarine"
+    buy: 29.4
+    sell: -1
+  77:
+    material: "PRISMARINE_SLAB"
+    displayname: "Prismarine Slab"
+    buy: 15.44
+    sell: -1
+  78:
+    material: "PRISMARINE_STAIRS"
+    displayname: "Prismarine Stairs"
+    buy: 46.31
+    sell: -1
+  79:
+    material: "PRISMARINE_BRICK_SLAB"
+    displayname: "Prismarine Brick Slab"
+    buy: 34.73
+    sell: -1
+  80:
+    material: "PRISMARINE_BRICK_STAIRS"
+    displayname: "Prismarine Brick Stairs"
+    buy: 104.19
+    sell: -1
+  81:
+    material: "PRISMARINE_BRICKS"
+    displayname: "Prismarine Bricks"
+    buy: 66.15
+    sell: -1
+  82:
+    material: "DARK_PRISMARINE"
+    displayname: "Dark Prismarine"
+    buy: 67.2
+    sell: -1
+  83:
+    material: "DARK_PRISMARINE_SLAB"
+    displayname: "Dark Prismarine Slab"
+    buy: 35.28
+    sell: -1
+  84:
+    material: "DARK_PRISMARINE_STAIRS"
+    displayname: "Dark Prismarine Stairs"
+    buy: 105.84
+    sell: -1
+  85:
+    material: "PURPUR_BLOCK"
+    displayname: "Purpur Block"
+    buy: 3.31
+    sell: -1
+  86:
+    material: "PURPUR_SLAB"
+    displayname: "Purpur Slab"
+    buy: 1.74
+    sell: -1
+  87:
+    material: "PURPUR_STAIRS"
+    displayname: "Purpur Stairs"
+    buy: 5.21
+    sell: -1
+  88:
+    material: "QUARTZ_BRICKS"
+    displayname: "Quartz Bricks"
+    buy: 145.87
+    sell: -1
+  89:
+    material: "QUARTZ_SLAB"
+    displayname: "Quartz Slab"
+    buy: 72.94
+    sell: -1
+  90:
+    material: "QUARTZ_STAIRS"
+    displayname: "Quartz Stairs"
+    buy: 218.8
+    sell: -1
+  91:
+    material: "RED_SAND"
+    displayname: "Red Sand"
+    buy: 8
+    sell: -1
+  92:
+    material: "SAND"
+    displayname: "Sand"
+    buy: 6
+    sell: -1
+  93:
+    material: "SANDSTONE"
+    displayname: "Sandstone"
+    buy: 25.2
+    sell: -1
+  94:
+    material: "SANDSTONE_SLAB"
+    displayname: "Sandstone Slab"
+    buy: 13.23
+    sell: -1
+  95:
+    material: "SANDSTONE_STAIRS"
+    displayname: "Sandstone Stairs"
+    buy: 39.69
+    sell: -1
+  96:
+    material: "SMOOTH_SANDSTONE"
+    displayname: "Smooth Sandstone"
+    buy: 26.46
+    sell: -1
+  97:
+    material: "SMOOTH_SANDSTONE_SLAB"
+    displayname: "Smooth Sandstone Slab"
+    buy: 13.9
+    sell: -1
+  98:
+    material: "SMOOTH_SANDSTONE_STAIRS"
+    displayname: "Smooth Sandstone Stairs"
+    buy: 41.68
+    sell: -1
+  99:
+    material: "RED_SANDSTONE"
+    displayname: "Red Sandstone"
+    buy: 33.6
+    sell: -1
+  100:
+    material: "RED_SANDSTONE_SLAB"
+    displayname: "Red Sandstone Slab"
+    buy: 17.64
+    sell: -1
+  101:
+    material: "RED_SANDSTONE_STAIRS"
+    displayname: "Red Sandstone Stairs"
+    buy: 52.92
+    sell: -1
+  102:
+    material: "SMOOTH_RED_SANDSTONE"
+    displayname: "Smooth Red Sandstone"
+    buy: 35.28
+    sell: -1
+  103:
+    material: "SMOOTH_RED_SANDSTONE_SLAB"
+    displayname: "Smooth Red Sandstone Slab"
+    buy: 18.53
+    sell: -1
+  104:
+    material: "SMOOTH_RED_SANDSTONE_STAIRS"
+    displayname: "Smooth Red Sandstone Stairs"
+    buy: 55.57
+    sell: -1
+  105:
+    material: "STONE_BRICK_SLAB"
+    displayname: "Stone Brick Slab"
+    buy: 0.4
+    sell: -1
+  106:
+    material: "STONE_BRICK_STAIRS"
+    displayname: "Stone Brick Stairs"
+    buy: 1.19
+    sell: -1
+  107:
+    material: "STONE_BRICKS"
+    displayname: "Stone Bricks"
+    buy: 0.75
+    sell: -1
+  108:
+    material: "MOSSY_STONE_BRICK_SLAB"
+    displayname: "Mossy Stone Brick Slab"
+    buy: 4.28
+    sell: -1
+  109:
+    material: "MOSSY_STONE_BRICK_STAIRS"
+    displayname: "Mossy Stone Brick Stairs"
+    buy: 12.82
+    sell: -1
+  110:
+    material: "MOSSY_STONE_BRICKS"
+    displayname: "Mossy Stone Bricks"
+    buy: 8.14
+    sell: -1
+  111:
+    material: "TERRACOTTA"
+    displayname: "Terracotta"
+    buy: 22.05
+    sell: -1
+  112:
+    material: "ACACIA_LOG"
+    displayname: "Acacia Log"
+    buy: 3
+    sell: -1
+  113:
+    material: "ACACIA_PLANKS"
+    displayname: "Acacia Planks"
+    buy: 1.11
+    sell: -1
+  114:
+    material: "ACACIA_SLAB"
+    displayname: "Acacia Slab"
+    buy: 0.58
+    sell: -1
+  115:
+    material: "ACACIA_STAIRS"
+    displayname: "Acacia Stairs"
+    buy: 1.74
+    sell: -1
+  116:
+    material: "ACACIA_WOOD"
+    displayname: "Acacia Wood"
+    buy: 4.2
+    sell: -1
+  117:
+    material: "BIRCH_LOG"
+    displayname: "Birch Log"
+    buy: 3
+    sell: -1
+  118:
+    material: "BIRCH_PLANKS"
+    displayname: "Birch Planks"
+    buy: 1.11
+    sell: -1
+  119:
+    material: "BIRCH_SLAB"
+    displayname: "Birch Slab"
+    buy: 0.58
+    sell: -1
+  120:
+    material: "BIRCH_STAIRS"
+    displayname: "Birch Stairs"
+    buy: 1.74
+    sell: -1
+  121:
+    material: "BIRCH_WOOD"
+    displayname: "Birch Wood"
+    buy: 4.2
+    sell: -1
+  122:
+    material: "CRIMSON_HYPHAE"
+    displayname: "Crimson Hyphae"
+    buy: 4.2
+    sell: -1
+  123:
+    material: "CRIMSON_PLANKS"
+    displayname: "Crimson Planks"
+    buy: 0.79
+    sell: -1
+  124:
+    material: "CRIMSON_SLAB"
+    displayname: "Crimson Slab"
+    buy: 0.42
+    sell: -1
+  125:
+    material: "CRIMSON_STAIRS"
+    displayname: "Crimson Stairs"
+    buy: 1.25
+    sell: -1
+  126:
+    material: "CRIMSON_STEM"
+    displayname: "Crimson Stem"
+    buy: 3
+    sell: -1
+  127:
+    material: "DARK_OAK_LOG"
+    displayname: "Dark Oak Log"
+    buy: 3
+    sell: -1
+  128:
+    material: "DARK_OAK_PLANKS"
+    displayname: "Dark Oak Planks"
+    buy: 1.11
+    sell: -1
+  129:
+    material: "DARK_OAK_SLAB"
+    displayname: "Dark Oak Slab"
+    buy: 0.58
+    sell: -1
+  130:
+    material: "DARK_OAK_STAIRS"
+    displayname: "Dark Oak Stairs"
+    buy: 1.74
+    sell: -1
+  131:
+    material: "DARK_OAK_WOOD"
+    displayname: "Dark Oak Wood"
+    buy: 4.2
+    sell: -1
+  132:
+    material: "JUNGLE_LOG"
+    displayname: "Jungle Log"
+    buy: 3
+    sell: -1
+  133:
+    material: "JUNGLE_PLANKS"
+    displayname: "Jungle Planks"
+    buy: 1.11
+    sell: -1
+  134:
+    material: "JUNGLE_SLAB"
+    displayname: "Jungle Slab"
+    buy: 0.58
+    sell: -1
+  135:
+    material: "JUNGLE_STAIRS"
+    displayname: "Jungle Stairs"
+    buy: 1.74
+    sell: -1
+  136:
+    material: "JUNGLE_WOOD"
+    displayname: "Jungle Wood"
+    buy: 4.2
+    sell: -1
+  137:
+    material: "OAK_LOG"
+    displayname: "Oak Log"
+    buy: 3
+    sell: -1
+  138:
+    material: "OAK_PLANKS"
+    displayname: "Oak Planks"
+    buy: 1.11
+    sell: -1
+  139:
+    material: "OAK_SLAB"
+    displayname: "Oak Slab"
+    buy: 0.58
+    sell: -1
+  140:
+    material: "OAK_STAIRS"
+    displayname: "Oak Stairs"
+    buy: 1.74
+    sell: -1
+  141:
+    material: "OAK_WOOD"
+    displayname: "Oak Wood"
+    buy: 4.2
+    sell: -1
+  142:
+    material: "SPRUCE_LOG"
+    displayname: "Spruce Log"
+    buy: 3
+    sell: -1
+  143:
+    material: "SPRUCE_PLANKS"
+    displayname: "Spruce Planks"
+    buy: 1.11
+    sell: -1
+  144:
+    material: "SPRUCE_SLAB"
+    displayname: "Spruce Slab"
+    buy: 0.58
+    sell: -1
+  145:
+    material: "SPRUCE_STAIRS"
+    displayname: "Spruce Stairs"
+    buy: 1.74
+    sell: -1
+  146:
+    material: "SPRUCE_WOOD"
+    displayname: "Spruce Wood"
+    buy: 4.2
+    sell: -1
+  147:
+    material: "WARPED_HYPHAE"
+    displayname: "Warped Hyphae"
+    buy: 4.2
+    sell: -1
+  148:
+    material: "WARPED_PLANKS"
+    displayname: "Warped Planks"
+    buy: 0.79
+    sell: -1
+  149:
+    material: "WARPED_SLAB"
+    displayname: "Warped Slab"
+    buy: 0.14
+    sell: -1
+  150:
+    material: "WARPED_STAIRS"
+    displayname: "Warped Stairs"
+    buy: 1.25
+    sell: -1
+  151:
+    material: "WARPED_STEM"
+    displayname: "Warped Stem"
+    buy: 3
+    sell: -1
+  152:
+    material: "BLACK_WOOL"
+    displayname: "Black Wool"
+    buy: 39.69
+    sell: -1
+  153:
+    material: "BLUE_WOOL"
+    displayname: "Blue Wool"
+    buy: 31.98
+    sell: -1
+  154:
+    material: "BROWN_WOOL"
+    displayname: "Brown Wool"
+    buy: 37.49
+    sell: -1
+  155:
+    material: "CYAN_WOOL"
+    displayname: "Cyan Wool"
+    buy: 31.51
+    sell: -1
+  156:
+    material: "GRAY_WOOL"
+    displayname: "Gray Wool"
+    buy: 37.62
+    sell: -1
+  157:
+    material: "GREEN_WOOL"
+    displayname: "Green Wool"
+    buy: 30.99
+    sell: -1
+  158:
+    material: "LIGHT_BLUE_WOOL"
+    displayname: "Light Blue Wool"
+    buy: 31.98
+    sell: -1
+  159:
+    material: "LIGHT_GRAY_WOOL"
+    displayname: "Light Gray Wool"
+    buy: 31.98
+    sell: -1
+  160:
+    material: "LIME_WOOL"
+    displayname: "Lime Wool"
+    buy: 37.49
+    sell: -1
+  161:
+    material: "MAGENTA_WOOL"
+    displayname: "Magenta Wool"
+    buy: 31.98
+    sell: -1
+  162:
+    material: "ORANGE_WOOL"
+    displayname: "Orange Wool"
+    buy: 31.98
+    sell: -1
+  163:
+    material: "PINK_WOOL"
+    displayname: "Pink Wool"
+    buy: 31.98
+    sell: -1
+  164:
+    material: "PURPLE_WOOL"
+    displayname: "Purple Wool"
+    buy: 32.03
+    sell: -1
+  165:
+    material: "RED_WOOL"
+    displayname: "Red Wool"
+    buy: 31.98
+    sell: -1
+  166:
+    material: "WHITE_WOOL"
+    displayname: "White Wool"
+    buy: 29.4
+    sell: -1
+  167:
+    material: "YELLOW_WOOL"
+    displayname: "Yellow Wool"
+    buy: 31.61
+    sell: -1
+
+#==================== Decoration ====================#
+
+Decoration:
+  1:
+    material: "CHAIN"
+    displayname: "Chain"
+    buy: 27.2
+    sell: -1
+  2:
+    material: "FLOWER_POT"
+    displayname: "Flower Pot"
+    buy: 69.46
+    sell: -1
+  3:
+    material: "HONEYCOMB_BLOCK"
+    displayname: "Honeycomb Block"
+    buy: 13.23
+    sell: -1
+  4:
+    material: "JACK_O_LANTERN"
+    displayname: "Jack oLantern"
+    buy: 11.2
+    sell: -1
+  5:
+    material: "BRAIN_CORAL"
+    displayname: "Brain Coral"
+    buy: 5
+    sell: -1
+  6:
+    material: "BRAIN_CORAL_BLOCK"
+    displayname: "Brain Coral Block"
+    buy: 16
+    sell: -1
+  7:
+    material: "BRAIN_CORAL_FAN"
+    displayname: "Brain Coral Fan"
+    buy: 3
+    sell: -1
+  8:
+    material: "BUBBLE_CORAL"
+    displayname: "Bubble Coral"
+    buy: 5
+    sell: -1
+  9:
+    material: "BUBBLE_CORAL_BLOCK"
+    displayname: "Bubble Coral Block"
+    buy: 16
+    sell: -1
+  10:
+    material: "BUBBLE_CORAL_FAN"
+    displayname: "Bubble Coral Fan"
+    buy: 3
+    sell: -1
+  11:
+    material: "DEAD_BRAIN_CORAL"
+    displayname: "Dead Brain Coral"
+    buy: 5
+    sell: -1
+  12:
+    material: "DEAD_BRAIN_CORAL_BLOCK"
+    displayname: "Dead Brain Coral Block"
+    buy: 16
+    sell: -1
+  13:
+    material: "DEAD_BRAIN_CORAL_FAN"
+    displayname: "Dead Brain Coral Fan"
+    buy: 3
+    sell: -1
+  14:
+    material: "DEAD_BUBBLE_CORAL"
+    displayname: "Dead Bubble Coral"
+    buy: 5
+    sell: -1
+  15:
+    material: "DEAD_BUBBLE_CORAL_BLOCK"
+    displayname: "Dead Bubble Coral Block"
+    buy: 16
+    sell: -1
+  16:
+    material: "DEAD_BUBBLE_CORAL_FAN"
+    displayname: "Dead Bubble Coral Fan"
+    buy: 3
+    sell: -1
+  17:
+    material: "DEAD_FIRE_CORAL"
+    displayname: "Dead Fire Coral"
+    buy: 5
+    sell: -1
+  18:
+    material: "DEAD_FIRE_CORAL_BLOCK"
+    displayname: "Dead Fire Coral Block"
+    buy: 16
+    sell: -1
+  19:
+    material: "DEAD_FIRE_CORAL_FAN"
+    displayname: "Dead Fire Coral Fan"
+    buy: 3
+    sell: -1
+  20:
+    material: "DEAD_HORN_CORAL"
+    displayname: "Dead Horn Coral"
+    buy: 5
+    sell: -1
+  21:
+    material: "DEAD_HORN_CORAL_BLOCK"
+    displayname: "Dead Horn Coral Block"
+    buy: 16
+    sell: -1
+  22:
+    material: "DEAD_HORN_CORAL_FAN"
+    displayname: "Dead Horn Coral Fan"
+    buy: 3
+    sell: -1
+  23:
+    material: "DEAD_TUBE_CORAL"
+    displayname: "Dead Tube Coral"
+    buy: 5
+    sell: -1
+  24:
+    material: "DEAD_TUBE_CORAL_BLOCK"
+    displayname: "Dead Tube Coral Block"
+    buy: 16
+    sell: -1
+  25:
+    material: "DEAD_TUBE_CORAL_FAN"
+    displayname: "Dead Tube Coral Fan"
+    buy: 3
+    sell: -1
+  26:
+    material: "FIRE_CORAL"
+    displayname: "Fire Coral"
+    buy: 5
+    sell: -1
+  27:
+    material: "FIRE_CORAL_BLOCK"
+    displayname: "Fire Coral Block"
+    buy: 16
+    sell: -1
+  28:
+    material: "FIRE_CORAL_FAN"
+    displayname: "Fire Coral Fan"
+    buy: 3
+    sell: -1
+  29:
+    material: "HORN_CORAL"
+    displayname: "Horn Coral"
+    buy: 5
+    sell: -1
+  30:
+    material: "HORN_CORAL_BLOCK"
+    displayname: "Horn Coral Block"
+    buy: 16
+    sell: -1
+  31:
+    material: "HORN_CORAL_FAN"
+    displayname: "Horn Coral Fan"
+    buy: 3
+    sell: -1
+  32:
+    material: "TUBE_CORAL"
+    displayname: "Tube Coral"
+    buy: 5
+    sell: -1
+  33:
+    material: "TUBE_CORAL_BLOCK"
+    displayname: "Tube Coral Block"
+    buy: 16
+    sell: -1
+  34:
+    material: "TUBE_CORAL_FAN"
+    displayname: "Tube Coral Fan"
+    buy: 6
+    sell: -1
+  35:
+    material: "ACACIA_SAPLING"
+    displayname: "Acacia Sapling"
+    buy: 3
+    sell: -1
+  36:
+    material: "BIRCH_SAPLING"
+    displayname: "Birch Sapling"
+    buy: 3
+    sell: -1
+  37:
+    material: "DARK_OAK_SAPLING"
+    displayname: "Dark Oak Sapling"
+    buy: 3
+    sell: -1
+  38:
+    material: "JUNGLE_SAPLING"
+    displayname: "Jungle Sapling"
+    buy: 3
+    sell: -1
+  39:
+    material: "OAK_SAPLING"
+    displayname: "Oak Sapling"
+    buy: 3
+    sell: -1
+  40:
+    material: "SPRUCE_SAPLING"
+    displayname: "Spruce Sapling"
+    buy: 3
+    sell: -1
+
+#==================== Dyes ====================#
+
+Dyes:
+  1:
+    material: "BLACK_DYE"
+    displayname: "Black Dye"
+    buy: 8.4
+    sell: -1
+  2:
+    material: "BLUE_DYE"
+    displayname: "Blue Dye"
+    buy: 1.05
+    sell: -1
+  3:
+    material: "BROWN_DYE"
+    displayname: "Brown Dye"
+    buy: 6.3
+    sell: -1
+  4:
+    material: "CYAN_DYE"
+    displayname: "Cyan Dye"
+    buy: 0.61
+    sell: -1
+  5:
+    material: "GRAY_DYE"
+    displayname: "Gray Dye"
+    buy: 6.43
+    sell: -1
+  6:
+    material: "GREEN_DYE"
+    displayname: "Green Dye"
+    buy: 0.11
+    sell: -1
+  7:
+    material: "LIGHT_BLUE_DYE"
+    displayname: "Light Blue Dye"
+    buy: 1.05
+    sell: -1
+  8:
+    material: "LIGHT_GRAY_DYE"
+    displayname: "Light Gray Dye"
+    buy: 1.05
+    sell: -1
+  9:
+    material: "LIME_DYE"
+    displayname: "Lime Dye"
+    buy: 6.3
+    sell: -1
+  10:
+    material: "MAGENTA_DYE"
+    displayname: "Magenta Dye"
+    buy: 1.05
+    sell: -1
+  11:
+    material: "ORANGE_DYE"
+    displayname: "Orange Dye"
+    buy: 1.05
+    sell: -1
+  12:
+    material: "PINK_DYE"
+    displayname: "Pink Dye"
+    buy: 1.05
+    sell: -1
+  13:
+    material: "PURPLE_DYE"
+    displayname: "Purple Dye"
+    buy: 1.11
+    sell: -1
+  14:
+    material: "RED_DYE"
+    displayname: "Red Dye"
+    buy: 1.05
+    sell: -1
+  15:
+    material: "WHITE_DYE"
+    displayname: "White Dye"
+    buy: 3.84
+    sell: -1
+  16:
+    material: "YELLOW_DYE"
+    displayname: "Yellow Dye"
+    buy: 0.7
+    sell: -1
+  17:
+    material: "AZURE_BLUET"
+    displayname: "Azure Bluet"
+    buy: 1
+    sell: -1
+  18:
+    material: "BLUE_ORCHID"
+    displayname: "Blue Orchid"
+    buy: 1
+    sell: -1
+  19:
+    material: "CORNFLOWER"
+    displayname: "Cornflower"
+    buy: 1
+    sell: -1
+  20:
+    material: "RED_TULIP"
+    displayname: "Red Tulip"
+    buy: 1
+    sell: -1
+  21:
+    material: "SUNFLOWER"
+    displayname: "Sunflower"
+    buy: 1
+    sell: -1
+  22:
+    material: "INK_SAC"
+    displayname: "Ink Sac"
+    buy: 8
+    sell: -1
+
+#==================== Enchanting ====================#
+
+Enchanting:
+  1:
+    material: "ENCHANTED_BOOK"
+    displayname: "Aqua Affinity 1"
+    buy: 160
+    sell: -1
+    enchantment: "WATER_WORKER"
+    strength: 1
+  2:
+    material: "ENCHANTED_BOOK"
+    displayname: "Bane Of Arthropods 5"
+    buy: 1944.81
+    sell: -1
+    enchantment: "DAMAGE_ARTHROPODS"
+    strength: 5
+  3:
+    material: "ENCHANTED_BOOK"
+    displayname: "Curse of Binding 1"
+    buy: 200
+    sell: -1
+    enchantment: "BINDING_CURSE"
+    strength: 1
+  4:
+    material: "ENCHANTED_BOOK"
+    displayname: "Blast Protection 4"
+    buy: 1481.76
+    sell: -1
+    enchantment: "PROTECTION_EXPLOSIONS"
+    strength: 4
+  5:
+    material: "ENCHANTED_BOOK"
+    displayname: "Channeling 1"
+    buy: 200
+    sell: -1
+    enchantment: "CHANNELING"
+    strength: 1
+  6:
+    material: "ENCHANTED_BOOK"
+    displayname: "Depth Strider 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "DEPTH_STRIDER"
+    strength: 3
+  7:
+    material: "ENCHANTED_BOOK"
+    displayname: "Efficiency 5"
+    buy: 972.41
+    sell: -1
+    enchantment: "DIG_SPEED"
+    strength: 5
+  8:
+    material: "ENCHANTED_BOOK"
+    displayname: "Feather Falling 4"
+    buy: 926.1
+    sell: -1
+    enchantment: "PROTECTION_FALL"
+    strength: 4
+  9:
+    material: "ENCHANTED_BOOK"
+    displayname: "Fire Aspect 2"
+    buy: 336
+    sell: -1
+    enchantment: "FIRE_ASPECT"
+    strength: 2
+  10:
+    material: "ENCHANTED_BOOK"
+    displayname: "Fire Protection 4"
+    buy: 926.1
+    sell: -1
+    enchantment: "PROTECTION_FIRE"
+    strength: 4
+  11:
+    material: "ENCHANTED_BOOK"
+    displayname: "Flame 1"
+    buy: 160
+    sell: -1
+    enchantment: "ARROW_FIRE"
+    strength: 1
+  12:
+    material: "ENCHANTED_BOOK"
+    displayname: "Fortune 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "LOOT_BONUS_BLOCKS"
+    strength: 3
+  13:
+    material: "ENCHANTED_BOOK"
+    displayname: "Frost Walker 2"
+    buy: 336
+    sell: -1
+    enchantment: "FROST_WALKER"
+    strength: 2
+  14:
+    material: "ENCHANTED_BOOK"
+    displayname: "Impaling 5"
+    buy: 3111.7
+    sell: -1
+    enchantment: "IMPALING"
+    strength: 5
+  15:
+    material: "ENCHANTED_BOOK"
+    displayname: "Infinity 1"
+    buy: 200
+    sell: -1
+    enchantment: "ARROW_INFINITE"
+    strength: 1
+  16:
+    material: "ENCHANTED_BOOK"
+    displayname: "Knockback 2"
+    buy: 210
+    sell: -1
+    enchantment: "KNOCKBACK"
+    strength: 2
+  17:
+    material: "ENCHANTED_BOOK"
+    displayname: "Looting 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "LOOT_BONUS_MOBS"
+    strength: 3
+  18:
+    material: "ENCHANTED_BOOK"
+    displayname: "Loyalty 3"
+    buy: 441
+    sell: -1
+    enchantment: "LOYALTY"
+    strength: 3
+  19:
+    material: "ENCHANTED_BOOK"
+    displayname: "Luck Of The Sea 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "LUCK"
+    strength: 3
+  20:
+    material: "ENCHANTED_BOOK"
+    displayname: "Lure 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "LURE"
+    strength: 3
+  21:
+    material: "ENCHANTED_BOOK"
+    displayname: "Mending 1"
+    buy: 160
+    sell: -1
+    enchantment: "MENDING"
+    strength: 1
+  22:
+    material: "ENCHANTED_BOOK"
+    displayname: "Multishot 1"
+    buy: 160
+    sell: -1
+    enchantment: "MULTISHOT"
+    strength: 1
+  23:
+    material: "ENCHANTED_BOOK"
+    displayname: "Piercing 4"
+    buy: 463.05
+    sell: -1
+    enchantment: "PIERCING"
+    strength: 4
+  24:
+    material: "ENCHANTED_BOOK"
+    displayname: "Power 5"
+    buy: 972.41
+    sell: -1
+    enchantment: "ARROW_DAMAGE"
+    strength: 5
+  25:
+    material: "ENCHANTED_BOOK"
+    displayname: "Projectile Protection 4"
+    buy: 926.1
+    sell: -1
+    enchantment: "PROTECTION_PROJECTILE"
+    strength: 4
+  26:
+    material: "ENCHANTED_BOOK"
+    displayname: "Protection 4"
+    buy: 463.05
+    sell: -1
+    enchantment: "PROTECTION_ENVIRONMENTAL"
+    strength: 4
+  27:
+    material: "ENCHANTED_BOOK"
+    displayname: "Punch 2"
+    buy: 336
+    sell: -1
+    enchantment: "ARROW_KNOCKBACK"
+    strength: 2
+  28:
+    material: "ENCHANTED_BOOK"
+    displayname: "Quick Charge 3"
+    buy: 441
+    sell: -1
+    enchantment: "QUICK_CHARGE"
+    strength: 3
+  29:
+    material: "ENCHANTED_BOOK"
+    displayname: "Respiration 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "OXYGEN"
+    strength: 3
+  30:
+    material: "ENCHANTED_BOOK"
+    displayname: "Riptide 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "RIPTIDE"
+    strength: 3
+  31:
+    material: "ENCHANTED_BOOK"
+    displayname: "Sharpness 5"
+    buy: 972.41
+    sell: -1
+    enchantment: "DAMAGE_ALL"
+    strength: 5
+  32:
+    material: "ENCHANTED_BOOK"
+    displayname: "Silk Touch 1"
+    buy: 200
+    sell: -1
+    enchantment: "SILK_TOUCH"
+    strength: 1
+  33:
+    material: "ENCHANTED_BOOK"
+    displayname: "Smite 5"
+    buy: 1944.81
+    sell: -1
+    enchantment: "DAMAGE_UNDEAD"
+    strength: 5
+  34:
+    material: "ENCHANTED_BOOK"
+    displayname: "Soul Speed 1"
+    buy: 250
+    sell: -1
+    enchantment: "SOUL_SPEED"
+    strength: 1
+  35:
+    material: "ENCHANTED_BOOK"
+    displayname: "Soul Speed-Lvl2 2"
+    buy: 525
+    sell: -1
+    enchantment: "SOUL_SPEED"
+    strength: 2
+  36:
+    material: "ENCHANTED_BOOK"
+    displayname: "Soul Speed-Lvl3 3"
+    buy: 1102.5
+    sell: -1
+    enchantment: "SOUL_SPEED"
+    strength: 3
+  37:
+    material: "ENCHANTED_BOOK"
+    displayname: "Sweeping 3"
+    buy: 705.6
+    sell: -1
+    enchantment: "SWEEPING_EDGE"
+    strength: 3
+  38:
+    material: "ENCHANTED_BOOK"
+    displayname: "Thorns 3"
+    buy: 882
+    sell: -1
+    enchantment: "THORNS"
+    strength: 3
+  39:
+    material: "ENCHANTED_BOOK"
+    displayname: "Unbreaking 3"
+    buy: 441
+    sell: -1
+    enchantment: "DURABILITY"
+    strength: 3
+  40:
+    material: "ENCHANTED_BOOK"
+    displayname: "Curse of Vanishing 1"
+    buy: 200
+    sell: -1
+    enchantment: "VANISHING_CURSE"
+    strength: 1
+
+#==================== Farming ====================#
+
+Farming:
+  1:
+    material: "BAMBOO"
+    displayname: "Bamboo"
+    buy: 0.1
+    sell: .05
+  2:
+    material: "BEE_NEST"
+    displayname: "Bee Nest"
+    buy: -1
+    sell: -1
+  3:
+    material: "BEEHIVE"
+    displayname: "Beehive"
+    buy: 16.87
+    sell: 8
+  4:
+    material: "BEETROOT_SEEDS"
+    displayname: "Beetroot Seeds"
+    buy: 3
+    sell: 1
+  5:
+    material: "BROWN_MUSHROOM"
+    displayname: "Brown Mushroom"
+    buy: 2
+    sell: .5
+  6:
+    material: "CACTUS"
+    displayname: "Cactus"
+    buy: 0.1
+    sell: .050
+  7:
+    material: "CARROT"
+    displayname: "Carrot"
+    buy: 5
+    sell: 3.5
+  8:
+    material: "CHORUS_FLOWER"
+    displayname: "Chorus Flower"
+    buy: 1
+    sell: .5
+  9:
+    material: "CHORUS_FRUIT"
+    displayname: "Chorus Fruit"
+    buy: 3
+    sell: -1
+  10:
+    material: "COCOA_BEANS"
+    displayname: "Cocoa Beans"
+    buy: 6
+    sell: 3
+  11:
+    material: "CRIMSON_FUNGUS"
+    displayname: "Crimson Fungus"
+    buy: 6
+    sell: 3
+  12:
+    material: "EGG"
+    displayname: "Egg"
+    buy: 5
+    sell: 2.5
+  13:
+    material: "KELP"
+    displayname: "Kelp"
+    buy: 0.1
+    sell: .5
+  14:
+    material: "LEATHER"
+    displayname: "Leather"
+    buy: 33.6
+    sell: 15.18
+  15:
+    material: "MELON"
+    displayname: "Melon"
+    buy: 28.35
+    sell: 13.17
+  16:
+    material: "MELON_SEEDS"
+    displayname: "Melon Seeds"
+    buy: 9.93
+    sell: 4.41
+  17:
+    material: "MELON_SLICE"
+    displayname: "Melon Slice"
+    buy: 3
+    sell: 1.5
+  18:
+    material: "NETHER_WART"
+    displayname: "Nether Wart"
+    buy: 3
+    sell: 1.5
+  19:
+    material: "POTATO"
+    displayname: "Potato"
+    buy: 5
+    sell: 2.5
+  20:
+    material: "PUMPKIN"
+    displayname: "Pumpkin"
+    buy: 5
+    sell: 2.5
+  21:
+    material: "PUMPKIN_SEEDS"
+    displayname: "Pumpkin Seeds"
+    buy: 1.32
+    sell: .65
+  22:
+    material: "RED_MUSHROOM"
+    displayname: "Red Mushroom"
+    buy: 2
+    sell: 1
+  23:
+    material: "SUGAR_CANE"
+    displayname: "Sugar Cane"
+    buy: 1
+    sell: .5
+  24:
+    material: "WARPED_FUNGUS"
+    displayname: "Warped Fungus"
+    buy: 6
+    sell: 3
+  25:
+    material: "WHEAT"
+    displayname: "Wheat"
+    buy: 5
+    sell: 2.5
+  26:
+    material: "WHEAT_SEEDS"
+    displayname: "Wheat Seeds"
+    buy: 3
+    sell: 1.5
+
+#==================== Food ====================#
+
+Food:
+  1:
+    material: "APPLE"
+    displayname: "Apple"
+    buy: 10
+    sell: 4
+  2:
+    material: "BREAD"
+    displayname: "Bread"
+    buy: 15.75
+    sell: 7.85
+  3:
+    material: "CAKE"
+    displayname: "Cake"
+    buy: 240.68
+    sell: 50
+  4:
+    material: "COOKED_SALMON"
+    displayname: "Cooked Salmon"
+    buy: 6.3
+    sell: 3
+  5:
+    material: "COOKIE"
+    displayname: "Cookie"
+    buy: 2.1
+    sell: 1
+  6:
+    material: "HONEY_BOTTLE"
+    displayname: "Honey Bottle"
+    buy: 7.94
+    sell: 4
+  7:
+    material: "BAKED_POTATO"
+    displayname: "Baked Potato"
+    buy: 5.25
+    sell: 2.5
+  8:
+    material: "COOKED_BEEF"
+    displayname: "Steak"
+    buy: 6.3
+    sell: 3
+  9:
+    material: "COOKED_CHICKEN"
+    displayname: "Cooked Chicken"
+    buy: 6.3
+    sell: 2
+  10:
+    material: "COOKED_MUTTON"
+    displayname: "Cooked Mutton"
+    buy: 6.3
+    sell: 3
+  11:
+    material: "COOKED_PORKCHOP"
+    displayname: "Cooked Porkchop"
+    buy: 6.3
+    sell: 2
+  12:
+    material: "COOKED_RABBIT"
+    displayname: "Cooked Rabbit"
+    buy: 6.3
+    sell: 3
+  13:
+    material: "BEEF"
+    displayname: "Raw Beef"
+    buy: 6
+    sell: 2
+  14:
+    material: "CHICKEN"
+    displayname: "Raw Chicken"
+    buy: 6
+    sell: 2
+  15:
+    material: "MUTTON"
+    displayname: "Raw Mutton"
+    buy: 6
+    sell: 2
+  16:
+    material: "PORKCHOP"
+    displayname: "Raw Porkchop"
+    buy: 6
+    sell: 2
+  17:
+    material: "RABBIT"
+    displayname: "Raw Rabbit"
+    buy: 6
+    sell: 2
+  18:
+    material: "BEETROOT_SOUP"
+    displayname: "Beetroot Soup"
+    buy: 38.72
+    sell: 10
+
+#==================== Mobs ====================#
+
+Mobs:
+  1:
+    material: "ARROW"
+    displayname: "Arrow"
+    buy: 2.26
+    sell: -1
+  2:
+    material: "BLAZE_POWDER"
+    displayname: "Blaze Powder"
+    buy: 2.63
+    sell: -1
+  3:
+    material: "BLAZE_ROD"
+    displayname: "Blaze Rod"
+    buy: 5
+    sell: -1
+  4:
+    material: "BONE"
+    displayname: "Bone"
+    buy: 6
+    sell: -1
+  5:
+    material: "FEATHER"
+    displayname: "Feather"
+    buy: 6
+    sell: -1
+  6:
+    material: "FERMENTED_SPIDER_EYE"
+    displayname: "Fermented Spider Eye"
+    buy: 9.57
+    sell: -1
+  7:
+    material: "GHAST_TEAR"
+    displayname: "Ghast Tear"
+    buy: 40
+    sell: 30
+  8:
+    material: "GUNPOWDER"
+    displayname: "Gunpowder"
+    buy: 15.5
+    sell: 10
+  9:
+    material: "MAGMA_CREAM"
+    displayname: "Magma Cream"
+    buy: 8.01
+    sell: 6
+  10:
+    material: "NAUTILUS_SHELL"
+    displayname: "Nautilus Shell"
+    buy: 180
+    sell: -1
+  11:
+    material: "PHANTOM_MEMBRANE"
+    displayname: "Phantom Membrane"
+    buy: 125.15
+    sell: 50
+  12:
+    material: "RABBIT_FOOT"
+    displayname: "Rabbits Foot"
+    buy: 180
+    sell: 12
+  13:
+    material: "RABBIT_HIDE"
+    displayname: "Rabbit Hide"
+    buy: 8
+    sell: 2
+  14:
+    material: "ROTTEN_FLESH"
+    displayname: "Rotten Flesh"
+    buy: 20
+    sell: 1
+  15:
+    material: "SPIDER_EYE"
+    displayname: "Spider Eye"
+    buy: 7
+    sell: 2
+  16:
+    material: "STRING"
+    displayname: "String"
+    buy: 7
+    sell: 2
+
+#==================== Music ====================#
+
+Music:
+  1:
+    material: "MUSIC_DISC_11"
+    displayname: "11 Disc"
+    buy: 75
+    sell: -1
+  2:
+    material: "MUSIC_DISC_13"
+    displayname: "13 Disc"
+    buy: 75
+    sell: -1
+  3:
+    material: "MUSIC_DISC_BLOCKS"
+    displayname: "Blocks Disc"
+    buy: 75
+    sell: -1
+  4:
+    material: "MUSIC_DISC_CAT"
+    displayname: "Cat Disc"
+    buy: 75
+    sell: -1
+  5:
+    material: "MUSIC_DISC_CHIRP"
+    displayname: "Chirp Disc"
+    buy: 75
+    sell: -1
+  6:
+    material: "MUSIC_DISC_FAR"
+    displayname: "Far Disc"
+    buy: 75
+    sell: -1
+  7:
+    material: "MUSIC_DISC_MALL"
+    displayname: "Mall Disc"
+    buy: 75
+    sell: -1
+  8:
+    material: "MUSIC_DISC_MELLOHI"
+    displayname: "Mellohi Disc"
+    buy: 75
+    sell: -1
+  9:
+    material: "MUSIC_DISC_PIGSTEP"
+    displayname: "Lena Raine - Pigstep"
+    buy: 75
+    sell: -1
+  10:
+    material: "MUSIC_DISC_STAL"
+    displayname: "Stal Disc"
+    buy: 75
+    sell: -1
+  11:
+    material: "MUSIC_DISC_STRAD"
+    displayname: "Strad Disc"
+    buy: 75
+    sell: -1
+  12:
+    material: "MUSIC_DISC_WAIT"
+    displayname: "Wait Disc"
+    buy: 75
+    sell: -1
+  13:
+    material: "MUSIC_DISC_WARD"
+    displayname: "Ward Disc"
+    buy: 75
+    sell: -1
+
+#==================== Ores ====================#
+
+Ores:
+  1:
+    material: "ANCIENT_DEBRIS"
+    displayname: "Anchient Debris"
+    buy: 450
+    sell: 450
+  2:
+    material: "COAL"
+    displayname: "Coal"
+    buy: 8
+    sell: 8
+  3:
+    material: "COAL_BLOCK"
+    displayname: "Block of Coal"
+    buy: 70
+    sell: 70
+  4:
+    material: "DIAMOND"
+    displayname: "Diamond"
+    buy: 300
+    sell: 300
+  5:
+    material: "DIAMOND_BLOCK"
+    displayname: "Block of Diamond"
+    buy: 2700
+    sell: 2700
+  6:
+    material: "EMERALD"
+    displayname: "Emerald"
+    buy: 111
+    sell: 111
+  7:
+    material: "EMERALD_BLOCK"
+    displayname: "Block of Emerald"
+    buy: 999
+    sell: 999
+  8:
+    material: "GOLD_BLOCK"
+    displayname: "Block of Gold"
+    buy: 81
+    sell: 81
+  9:
+    material: "GOLD_INGOT"
+    displayname: "Gold Ingot"
+    buy: 9
+    sell: 9
+  10:
+    material: "IRON_BLOCK"
+    displayname: "Block of Iron"
+    buy: 54
+    sell: 64
+  11:
+    material: "IRON_INGOT"
+    displayname: "Iron Ingot"
+    buy: 6
+    sell: 6
+  12:
+    material: "LAPIS_BLOCK"
+    displayname: "Lapis Lazuli Block"
+    buy: 136.44
+    sell: 50.99
+  13:
+    material: "LAPIS_LAZULI"
+    displayname: "Lapis Lazuli"
+    buy: 14.44
+    sell: 14.44
+  14:
+    material: "NETHERITE_BLOCK"
+    displayname: "Block of Netherite"
+    buy: 2600
+    sell: 2600
+  15:
+    material: "NETHERITE_INGOT"
+    displayname: "Netherite Ingot"
+    buy: 288
+    sell: 288
+  16:
+    material: "QUARTZ"
+    displayname: "Nether Quartz"
+    buy: 33.08
+    sell: 33.08
+  17:
+    material: "QUARTZ_BLOCK"
+    displayname: "Block of Quartz"
+    buy: 297
+    sell: 297
+  18:
+    material: "REDSTONE"
+    displayname: "Redstone"
+    buy: 3
+    sell: 3
+  19:
+    material: "REDSTONE_BLOCK"
+    displayname: "Block of Redstone"
+    buy: 27
+    sell: 27
+  20:
+    material: "GOLD_NUGGET"
+    displayname: "Gold Nugget"
+    buy: 1
+    sell: 1
+
+#==================== Others ====================#
+
+Others:
+  1:
+    material: "ANVIL"
+    displayname: "Anvil"
+    buy: 713.32
+    sell: -1
+  2:
+    material: "BELL"
+    displayname: "Bell"
+    buy: 1000
+    sell: -1
+  3:
+    material: "CARROT_ON_A_STICK"
+    displayname: "Carrot on a Stick"
+    buy: 7.08
+    sell: -1
+  4:
+    material: "COBWEB"
+    displayname: "Cobweb"
+    buy: 40
+    sell: -1
+  5:
+    material: "COD_BUCKET"
+    displayname: "Bucket of Cod"
+    buy: 79.56
+    sell: -1
+  6:
+    material: "ELYTRA"
+    displayname: "Elytra"
+    buy: 2415.2
+    sell: -1
+  7:
+    material: "ENDER_CHEST"
+    displayname: "Ender Chest"
+    buy: 273.12
+    sell: -1
+  8:
+    material: "ENDER_EYE"
+    displayname: "Eye of Ender"
+    buy: 10.11
+    sell: -1
+  9:
+    material: "EXPERIENCE_BOTTLE"
+    displayname: "Bottle o Enchanting"
+    buy: -1
+    sell: -1
+  10:
+    material: "GLOWSTONE_DUST"
+    displayname: "Glowstone Dust"
+    buy: 7
+    sell: -1
+  11:
+    material: "HONEYCOMB"
+    displayname: "Honeycomb"
+    buy: 3.15
+    sell: -1
+  12:
+    material: "LAVA_BUCKET"
+    displayname: "Lava Bucket"
+    buy: 69.62
+    sell: -1
+  13:
+    material: "LEAD"
+    displayname: "Lead"
+    buy: 17.33
+    sell: -1
+  14:
+    material: "LILY_PAD"
+    displayname: "Lily Pad"
+    buy: 28
+    sell: -1
+  15:
+    material: "LODESTONE"
+    displayname: "Lodestone"
+    buy: 2990.15
+    sell: -1
+  16:
+    material: "MAP"
+    displayname: "Empty Map"
+    buy: 99.29
+    sell: -1
+  17:
+    material: "NAME_TAG"
+    displayname: "Name Tag"
+    buy: 100
+    sell: -1
+  18:
+    material: "NETHER_STAR"
+    displayname: "Nether Star"
+    buy: 400
+    sell:
+  19:
+    material: "PLAYER_HEAD"
+    name: "&6Notch"
+    lore:
+      - "&1The founder of minecraft"
+    buy: 1500
+    sell: -1
+    skullowner: "Notch"
+  20:
+    material: "PUFFERFISH_BUCKET"
+    displayname: "Bucket of Pufferfish"
+    buy: 79.56
+    sell: -1
+  21:
+    material: "RED_BED"
+    displayname: "Red Bed"
+    buy: 104.19
+    sell: -1
+  22:
+    material: "SADDLE"
+    displayname: "Saddle"
+    buy: 60
+    sell: -1
+  23:
+    material: "SALMON_BUCKET"
+    displayname: "Bucket of Salmon"
+    buy: 79.56
+    sell: -1
+  24:
+    material: "SCAFFOLDING"
+    displayname: "Scaffolding"
+    buy: 1.33
+    sell: -1
+  25:
+    material: "SHULKER_SHELL"
+    displayname: "Shulker Shell"
+    buy: 7
+    sell: -1
+  26:
+    material: "SLIME_BALL"
+    displayname: "Slimeball"
+    buy: 5
+    sell: -1
+  27:
+    material: "SNOW"
+    displayname: "Snow"
+    buy: 6.62
+    sell: -1
+  28:
+    material: "SNOWBALL"
+    displayname: "Snowball"
+    buy: 3
+    sell: -1
+  29:
+    material: "SPONGE"
+    displayname: "Sponge"
+    buy: 525
+    sell: -1
+  30:
+    material: "TOTEM_OF_UNDYING"
+    displayname: "Totem of Undying"
+    buy: 100
+    sell: -1
+  31:
+    material: "TRIDENT"
+    displayname: "Trident"
+    buy: 180
+    sell: -1
+  32:
+    material: "TROPICAL_FISH_BUCKET"
+    displayname: "Bucket of Tropical Fish"
+    buy: 79.56
+    sell: -1
+  33:
+    material: "TURTLE_EGG"
+    displayname: "Turtle Egg"
+    buy: 15
+    sell: -1
+  34:
+    material: "WARPED_FUNGUS_ON_A_STICK"
+    displayname: "Warped Fungus On A Stick"
+    buy: 23.65
+    sell: -1
+  35:
+    material: "WATER_BUCKET"
+    displayname: "Water Bucket"
+    buy: 69.57
+    sell: -1
+  36:
+    material: "WRITABLE_BOOK"
+    displayname: "Book and Quill"
+    buy: 52.1
+    sell: -1
+  37:
+    material: "CREEPER_BANNER_PATTERN"
+    displayname: "Creeper Charge"
+    buy: 630.12
+    sell: -1
+  38:
+    material: "FLOWER_BANNER_PATTERN"
+    displayname: "Flower Charge"
+    buy: 1.17
+    sell: -1
+  39:
+    material: "GLOBE_BANNER_PATTERN"
+    displayname: "Globe"
+    buy: 1194.67
+    sell: -1
+  40:
+    material: "MOJANG_BANNER_PATTERN"
+    displayname: "Thing"
+    buy: 10500.12
+    sell: -1.03
+  41:
+    material: "PIGLIN_BANNER_PATTERN"
+    displayname: "Snout"
+    buy: 10000
+    sell: -1
+  42:
+    material: "SKULL_BANNER_PATTERN"
+    displayname: "Skull Charge"
+    buy: 525.12
+    sell: -1
+  43:
+    material: "BEACON"
+    displayname: "Beacon"
+    buy: 551.52
+    sell: -1
+  44:
+    material: "END_ROD"
+    displayname: "End Rod"
+    buy: 2.14
+    sell: -1
+  45:
+    material: "LANTERN"
+    displayname: "Lantern"
+    buy: 26.53
+    sell: -1
+  46:
+    material: "SOUL_LANTERN"
+    displayname: "Soul Fire Lantern"
+    buy: 29.29
+    sell: -1
+  47:
+    material: "CAMPFIRE"
+    displayname: "Campfire"
+    buy: 33.33
+    sell: -1
+  48:
+    material: "SOUL_CAMPFIRE"
+    displayname: "Soul Campfire"
+    buy: 21.78
+    sell: -1
+  49:
+    material: "TWISTING_VINES"
+    displayname: "Twisting Vines"
+    buy: 6
+    sell: -1
+  50:
+    material: "VINE"
+    displayname: "Vines"
+    buy: 7
+    sell: -1
+  51:
+    material: "WEEPING_VINES"
+    displayname: "Weeping Vines"
+    buy: 6
+    sell: -1
+
+#==================== Potions ====================#
+
+Potions:
+  1:
+    material: "POTION"
+    displayname: "Potion of Fire Resistance"
+    buy: 11.9
+    sell: -1
+    potiontype: "fire_resistance"
+  2:
+    material: "POTION"
+    displayname: "Potion of Harming"
+    buy: 21.62
+    sell: -1
+    potiontype: "harming"
+  3:
+    material: "POTION"
+    displayname: "Potion of Healing"
+    buy: 132.46
+    sell: -1
+    potiontype: "healing"
+  4:
+    material: "POTION"
+    displayname: "Potion of Invisibility"
+    buy: 152.9
+    sell: -1
+    potiontype: "invisibility"
+  5:
+    material: "POTION"
+    displayname: "Potion of Leaping"
+    buy: 194.22
+    sell: -1
+    potiontype: "leaping"
+  6:
+    material: "POTION"
+    displayname: "Potion of Night Vision"
+    buy: 134.69
+    sell: -1
+    potiontype: "night_vision"
+  7:
+    material: "POTION"
+    displayname: "Potion of Poison"
+    buy: 10.84
+    sell: -1
+    potiontype: "poison"
+  8:
+    material: "POTION"
+    displayname: "Potion of Regeneration"
+    buy: 45.82
+    sell: -1
+    potiontype: "regeneration"
+  9:
+    material: "POTION"
+    displayname: "Potion of Slow Falling"
+    buy: 136.07
+    sell: -1
+    potiontype: "slow_falling"
+  10:
+    material: "POTION"
+    displayname: "Potion of Slowness"
+    buy: 13.87
+    sell: -1
+    potiontype: "slowness"
+  11:
+    material: "POTION"
+    displayname: "Potion of Strength"
+    buy: 6.2
+    sell: -1
+    potiontype: "strength"
+  12:
+    material: "POTION"
+    displayname: "Potion of Swiftness"
+    buy: 3.53
+    sell: -1
+    potiontype: "swiftness"
+  13:
+    material: "POTION"
+    displayname: "Potion of Turtle Master"
+    buy: 2952.87
+    sell: -1
+    potiontype: "turtle_master"
+  14:
+    material: "POTION"
+    displayname: "Potion of Water Breathing"
+    buy: 9.78
+    sell: -1
+    potiontype: "water_breathing"
+  15:
+    material: "POTION"
+    displayname: "Potion of Weakness"
+    buy: 10.18
+    sell: -1
+    potiontype: "weakness"
+  16:
+    material: "POTION"
+    displayname: "Potion of Fire Resistance"
+    buy: 18.18
+    sell: -1
+    potiontype: "long_fire_resistance"
+  17:
+    material: "POTION"
+    displayname: "Potion of Invisibility"
+    buy: 167.64
+    sell: -1
+    potiontype: "long_invisibility"
+  18:
+    material: "POTION"
+    displayname: "Potion of Night Vision"
+    buy: 148.33
+    sell: -1
+    potiontype: "long_night_vision"
+  19:
+    material: "POTION"
+    displayname: "Potion of Poison"
+    buy: 17.05
+    sell: -1
+    potiontype: "long_poison"
+  20:
+    material: "POTION"
+    displayname: "Potion of Regeneration"
+    buy: 54.13
+    sell: -1
+    potiontype: "long_regeneration"
+  21:
+    material: "POTION"
+    displayname: "Potion of Slow Falling"
+    buy: 149.8
+    sell: -1
+    potiontype: "long_slow_falling"
+  22:
+    material: "POTION"
+    displayname: "Potion of Slowness"
+    buy: 20.27
+    sell: -1
+    potiontype: "long_slowness"
+  23:
+    material: "POTION"
+    displayname: "Potion of Strength"
+    buy: 12.13
+    sell: -1
+    potiontype: "long_strength"
+  24:
+    material: "POTION"
+    displayname: "Potion of Swiftness"
+    buy: 9.3
+    sell: -1
+    potiontype: "long_swiftness"
+  25:
+    material: "POTION"
+    displayname: "Potion of Turtle Master"
+    buy: 3135.6
+    sell: -1
+    potiontype: "long_turtle_master"
+  26:
+    material: "POTION"
+    displayname: "Potion of Water Breathing"
+    buy: 15.93
+    sell: -1
+    potiontype: "long_water_breathing"
+  27:
+    material: "POTION"
+    displayname: "Potion of Weakness"
+    buy: 16.35
+    sell: -1
+    potiontype: "long_weakness"
+  28:
+    material: "POTION"
+    displayname: "Potion of Harming"
+    buy: 54.08
+    sell: -1
+    potiontype: "strong_harming"
+  29:
+    material: "POTION"
+    displayname: "Potion of Healing"
+    buy: 171.57
+    sell: -1
+    potiontype: "strong_healing"
+  30:
+    material: "POTION"
+    displayname: "Potion of Leaping"
+    buy: 237.03
+    sell: -1
+    potiontype: "strong_leaping"
+  31:
+    material: "POTION"
+    displayname: "Potion of Poison"
+    buy: 42.65
+    sell: -1
+    potiontype: "strong_poison"
+  32:
+    material: "POTION"
+    displayname: "Potion of Regeneration"
+    buy: 79.73
+    sell: -1
+    potiontype: "strong_regeneration"
+  33:
+    material: "POTION"
+    displayname: "Potion of Strength"
+    buy: 37.73
+    sell: -1
+    potiontype: "strong_strength"
+  34:
+    material: "POTION"
+    displayname: "Potion of Swiftness"
+    buy: 34.9
+    sell: -1
+    potiontype: "strong_swiftness"
+  35:
+    material: "POTION"
+    displayname: "Potion of Turtle Master"
+    buy: 3161.2
+    sell: -1
+    potiontype: "strong_turtle_master"
+  36:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Fire Resistance"
+    buy: 29.05
+    sell: -1
+    potiontype: "fire_resistance"
+  37:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Harming"
+    buy: 39.35
+    sell: -1
+    potiontype: "harming"
+  38:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Healing"
+    buy: 156.84
+    sell: -1
+    potiontype: "healing"
+  39:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Invisibility"
+    buy: 178.51
+    sell: -1
+    potiontype: "invisibility"
+  40:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Leaping"
+    buy: 222.3
+    sell: -1
+    potiontype: "leaping"
+  41:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Night Vision"
+    buy: 159.2
+    sell: -1
+    potiontype: "night_vision"
+  42:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Poison"
+    buy: 27.92
+    sell: -1
+    potiontype: "poison"
+  43:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Regeneration"
+    buy: 64.99
+    sell: -1
+    potiontype: "regeneration"
+  44:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Slow Falling"
+    buy: 160.67
+    sell: -1
+    potiontype: "slow_falling"
+  45:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Slowness"
+    buy: 31.13
+    sell: -1
+    potiontype: "slowness"
+  46:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Strength"
+    buy: 23
+    sell: -1
+    potiontype: "strength"
+  47:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Swiftness"
+    buy: 20.17
+    sell: -1
+    potiontype: "swiftness"
+  48:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Turtle Master"
+    buy: 3146.47
+    sell: -1
+    potiontype: "turtle_master"
+  49:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Water Breathing"
+    buy: 26.79
+    sell: -1
+    potiontype: "water_breathing"
+  50:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Weakness"
+    buy: 27.22
+    sell: -1
+    potiontype: "weakness"
+  51:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Fire Resistance"
+    buy: 35.7
+    sell: -1
+    potiontype: "long_fire_resistance"
+  52:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Invisibility"
+    buy: 194.13
+    sell: -1
+    potiontype: "long_invisibility"
+  53:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Night Vision"
+    buy: 173.66
+    sell: -1
+    potiontype: "long_night_vision"
+  54:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Poison"
+    buy: 34.5
+    sell: -1
+    potiontype: "long_poison"
+  55:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Regeneration"
+    buy: 73.81
+    sell: -1
+    potiontype: "long_regeneration"
+  56:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Slow Falling"
+    buy: 175.22
+    sell: -1
+    potiontype: "long_slow_falling"
+  57:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Slowness"
+    buy: 37.91
+    sell: -1
+    potiontype: "long_slowness"
+  58:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Strength"
+    buy: 29.29
+    sell: -1
+    potiontype: "long_strength"
+  59:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Swiftness"
+    buy: 26.29
+    sell: -1
+    potiontype: "long_swiftness"
+  60:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Turtle Master"
+    buy: 3340.17
+    sell: -1
+    potiontype: "long_turtle_master"
+  61:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Water Breathing"
+    buy: 33.31
+    sell: -1
+    potiontype: "long_water_breathing"
+  62:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Weakness"
+    buy: 33.76
+    sell: -1
+    potiontype: "long_weakness"
+  63:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Harming"
+    buy: 73.75
+    sell: -1
+    potiontype: "strong_harming"
+  64:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Healing"
+    buy: 198.3
+    sell: -1
+    potiontype: "strong_healing"
+  65:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Leaping"
+    buy: 267.68
+    sell: -1
+    potiontype: "strong_leaping"
+  66:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Poison"
+    buy: 61.64
+    sell: -1
+    potiontype: "strong_poison"
+  67:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Regeneration"
+    buy: 100.94
+    sell: -1
+    potiontype: "strong_regeneration"
+  68:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Strength"
+    buy: 56.43
+    sell: -1
+    potiontype: "strong_strength"
+  69:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Swiftness"
+    buy: 53.43
+    sell: -1
+    potiontype: "strong_swiftness"
+  70:
+    material: "SPLASH_POTION"
+    displayname: "Splash Potion of Turtle Master"
+    buy: 3367.3
+    sell: -1
+    potiontype: "strong_turtle_master"
+  71:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Fire Resistance"
+    buy: 147.31
+    sell: -1
+    potiontype: "fire_resistance"
+  72:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Harming"
+    buy: 158.22
+    sell: -1
+    potiontype: "harming"
+  73:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Healing"
+    buy: 282.77
+    sell: -1
+    potiontype: "healing"
+  74:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Invisibility"
+    buy: 305.74
+    sell: -1
+    potiontype: "invisibility"
+  75:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Leaping"
+    buy: 352.15
+    sell: -1
+    potiontype: "leaping"
+  76:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Night Vision"
+    buy: 285.27
+    sell: -1
+    potiontype: "night_vision"
+  77:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Poison"
+    buy: 146.11
+    sell: -1
+    potiontype: "poison"
+  78:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Regeneration"
+    buy: 185.41
+    sell: -1
+    potiontype: "regeneration"
+  79:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Slow Falling"
+    buy: 286.83
+    sell: -1
+    potiontype: "slow_falling"
+  80:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Slowness"
+    buy: 149.52
+    sell: -1
+    potiontype: "slowness"
+  81:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Strength"
+    buy: 140.9
+    sell: -1
+    potiontype: "strength"
+  82:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Swiftness"
+    buy: 137.9
+    sell: -1
+    potiontype: "swiftness"
+  83:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Turtle Master"
+    buy: 3451.77
+    sell: -1
+    potiontype: "turtle_master"
+  84:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Water Breathing"
+    buy: 144.92
+    sell: -1
+    potiontype: "water_breathing"
+  85:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Weakness"
+    buy: 145.37
+    sell: -1
+    potiontype: "weakness"
+  86:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Fire Resistance"
+    buy: 154.36
+    sell: -1
+    potiontype: "long_fire_resistance"
+  87:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Invisibility"
+    buy: 322.3
+    sell: -1
+    potiontype: "long_invisibility"
+  88:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Night Vision"
+    buy: 300.6
+    sell: -1
+    potiontype: "long_night_vision"
+  89:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Poison"
+    buy: 153.09
+    sell: -1
+    potiontype: "long_poison"
+  90:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Regeneration"
+    buy: 194.75
+    sell: -1
+    potiontype: "long_regeneration"
+  91:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Slow Falling"
+    buy: 302.25
+    sell: -1
+    potiontype: "long_slow_falling"
+  92:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Slowness"
+    buy: 156.71
+    sell: -1
+    potiontype: "long_slowness"
+  93:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Strength"
+    buy: 147.57
+    sell: -1
+    potiontype: "long_strength"
+  94:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Swiftness"
+    buy: 144.39
+    sell: -1
+    potiontype: "long_swiftness"
+  95:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Turtle Master"
+    buy: 3657.1
+    sell: -1
+    potiontype: "long_turtle_master"
+  96:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Water Breathing"
+    buy: 151.83
+    sell: -1
+    potiontype: "long_water_breathing"
+  97:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Weakness"
+    buy: 152.31
+    sell: -1
+    potiontype: "long_weakness"
+  98:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Harming"
+    buy: 194.7
+    sell: -1
+    potiontype: "strong_harming"
+  99:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Healing"
+    buy: 326.71
+    sell: -1
+    potiontype: "strong_healing"
+  100:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Leaping"
+    buy: 400.26
+    sell: -1
+    potiontype: "strong_leaping"
+  101:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Poison"
+    buy: 181.85
+    sell: -1
+    potiontype: "strong_poison"
+  102:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Regeneration"
+    buy: 223.52
+    sell: -1
+    potiontype: "strong_regeneration"
+  103:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Strength"
+    buy: 176.33
+    sell: -1
+    potiontype: "strong_strength"
+  104:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Swiftness"
+    buy: 173.15
+    sell: -1
+    potiontype: "strong_swiftness"
+  105:
+    material: "LINGERING_POTION"
+    displayname: "Lingering Potion of Turtle Master"
+    buy: 3685.86
+    sell: -1
+    potiontype: "strong_turtle_master"
+  106:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Fire Resistance"
+    buy: 21.7
+    sell: -1
+    potiontype: "fire_resistance"
+  107:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Harming"
+    buy: 23.14
+    sell: -1
+    potiontype: "harming"
+  108:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Healing"
+    buy: 39.48
+    sell: -1
+    potiontype: "healing"
+  109:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Invisibility"
+    buy: 42.5
+    sell: -1
+    potiontype: "invisibility"
+  110:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Leaping"
+    buy: 48.59
+    sell: -1
+    potiontype: "leaping"
+  111:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Fire Resistance"
+    buy: 22.63
+    sell: -1
+    potiontype: "long_fire_resistance"
+  112:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Invisibility"
+    buy: 44.67
+    sell: -1
+    potiontype: "long_invisibility"
+  113:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Night Vision"
+    buy: 41.82
+    sell: -1
+    potiontype: "long_night_vision"
+  114:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Poison"
+    buy: 22.46
+    sell: -1
+    potiontype: "long_poison"
+  115:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Regeneration"
+    buy: 27.93
+    sell: -1
+    potiontype: "long_regeneration"
+  116:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Slow Falling"
+    buy: 42.04
+    sell: -1
+    potiontype: "long_slow_falling"
+  117:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Slowness"
+    buy: 22.94
+    sell: -1
+    potiontype: "long_slowness"
+  118:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Strength"
+    buy: 21.74
+    sell: -1
+    potiontype: "long_strength"
+  119:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Swiftness"
+    buy: 21.32
+    sell: -1
+    potiontype: "long_swiftness"
+  120:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Turtle Master"
+    buy: 482.36
+    sell: -1
+    potiontype: "long_turtle_master"
+  121:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Water Breathing"
+    buy: 22.3
+    sell: -1
+    potiontype: "long_water_breathing"
+  122:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Weakness"
+    buy: 22.36
+    sell: -1
+    potiontype: "long_weakness"
+  123:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Night Vision"
+    buy: 39.81
+    sell: -1
+    potiontype: "night_vision"
+  124:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Poison"
+    buy: 21.55
+    sell: -1
+    potiontype: "poison"
+  125:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Regeneration"
+    buy: 26.7
+    sell: -1
+    potiontype: "regeneration"
+  126:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Slow Falling"
+    buy: 40.01
+    sell: -1
+    potiontype: "slow_falling"
+  127:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Slowness"
+    buy: 21.99
+    sell: -1
+    potiontype: "slowness"
+  128:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Strength"
+    buy: 20.86
+    sell: -1
+    potiontype: "strength"
+  129:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Harming"
+    buy: 27.92
+    sell: -1
+    potiontype: "strong_harming"
+  130:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Healing"
+    buy: 45.25
+    sell: -1
+    potiontype: "strong_healing"
+  131:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Leaping"
+    buy: 54.9
+    sell: -1
+    potiontype: "strong_leaping"
+  132:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Poison"
+    buy: 26.24
+    sell: -1
+    potiontype: "strong_poison"
+  133:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Regeneration"
+    buy: 31.71
+    sell: -1
+    potiontype: "strong_regeneration"
+  134:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Strength"
+    buy: 25.51
+    sell: -1
+    potiontype: "strong_strength"
+  135:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Swiftness"
+    buy: 25.09
+    sell: -1
+    potiontype: "strong_swiftness"
+  136:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Turtle Master"
+    buy: 486.14
+    sell: -1
+    potiontype: "strong_turtle_master"
+  137:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Swiftness"
+    buy: 20.47
+    sell: -1
+    potiontype: "swiftness"
+  138:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Turtle Master"
+    buy: 455.41
+    sell: -1
+    potiontype: "turtle_master"
+  139:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Water Breathing"
+    buy: 21.39
+    sell: -1
+    potiontype: "water_breathing"
+  140:
+    material: "TIPPED_ARROW"
+    displayname: "Arrow of Weakness"
+    buy: 21.45
+    sell: -1
+    potiontype: "weakness"
+
+#==================== Redstone ====================#
+
+Redstone:
+  1:
+    material: "CAULDRON"
+    displayname: "Cauldron"
+    buy: 110.25
+    sell: -1
+  2:
+    material: "DAYLIGHT_DETECTOR"
+    displayname: "Daylight Detector"
+    buy: 125.86
+    sell: -1
+  3:
+    material: "DISPENSER"
+    displayname: "Dispenser"
+    buy: 35.58
+    sell: -1
+  4:
+    material: "DROPPER"
+    displayname: "Dropper"
+    buy: 10.52
+    sell: -1
+  5:
+    material: "HOPPER"
+    displayname: "Hopper"
+    buy: 119.98
+    sell: -1
+  6:
+    material: "IRON_DOOR"
+    displayname: "Iron Door"
+    buy: 22.05
+    sell: -1
+  7:
+    material: "JUKEBOX"
+    displayname: "Jukebox"
+    buy: 395.14
+    sell: -1
+  8:
+    material: "LEVER"
+    displayname: "Lever"
+    buy: 1.33
+    sell: -1
+  9:
+    material: "NOTE_BLOCK"
+    displayname: "Note Block"
+    buy: 14.78
+    sell: -1
+  10:
+    material: "OBSERVER"
+    displayname: "Observer"
+    buy: 50.04
+    sell: -1
+  11:
+    material: "REDSTONE_LAMP"
+    displayname: "Redstone Lamp"
+    buy: 52.92
+    sell: -1
+  12:
+    material: "REDSTONE_TORCH"
+    displayname: "Redstone Torch"
+    buy: 6.13
+    sell: -1
+  13:
+    material: "RESPAWN_ANCHOR"
+    displayname: "Respawn Anchor"
+    buy: 486.36
+    sell: -1
+  14:
+    material: "TARGET"
+    displayname: "Target"
+    buy: 71.67
+    sell: -1
+  15:
+    material: "TRIPWIRE_HOOK"
+    displayname: "Tripwire Hook"
+    buy: 11.91
+    sell: -1
+  16:
+    material: "COMPARATOR"
+    displayname: "Redstone Comparator"
+    buy: 56.26
+    sell: -1
+  17:
+    material: "REPEATER"
+    displayname: "Redstone Repeater"
+    buy: 20.62
+    sell: -1
+  18:
+    material: "OAK_BUTTON"
+    displayname: "Oak Button"
+    buy: 1.16
+    sell: -1
+  19:
+    material: "STONE_BUTTON"
+    displayname: "Stone Button"
+    buy: 0.75
+    sell: -1
+  20:
+    material: "PISTON"
+    displayname: "Piston"
+    buy: 33.9
+    sell: -1
+  21:
+    material: "STICKY_PISTON"
+    displayname: "Sticky Piston"
+    buy: 40.84
+    sell: -1
+  22:
+    material: "OAK_PRESSURE_PLATE"
+    displayname: "Oak Pressure Plate"
+    buy: 2.32
+    sell: -1
+  23:
+    material: "STONE_PRESSURE_PLATE"
+    displayname: "Stone Pressure Plate"
+    buy: 1.5
+    sell: -1
+  24:
+    material: "LIGHT_WEIGHTED_PRESSURE_PLATE"
+    displayname: "Light Weighted Pressure Plate"
+    buy: 254.13
+    sell: -1
+  25:
+    material: "HEAVY_WEIGHTED_PRESSURE_PLATE"
+    displayname: "Heavy Weighted Pressure Plate"
+    buy: 44.1
+    sell: -1
+  26:
+    material: "OAK_TRAPDOOR"
+    displayname: "Oak Trapdoor"
+    buy: 3.48
+    sell: -1
+  27:
+    material: "IRON_TRAPDOOR"
+    displayname: "Iron Trapdoor"
+    buy: 88.2
+    sell: -1
+
+#==================== Spawners ====================#
+
+Spawners:
+  1:
+    material: "SPAWNER"
+    spawnertype: "BLAZE"
+    displayname: "Blaze Spawner"
+    buy: 125000
+    sell: -1
+  2:
+    material: "SPAWNER"
+    spawnertype: "CHICKEN"
+    displayname: "Chicken Spawner"
+    buy: 15000
+    sell: -1
+  3:
+    material: "SPAWNER"
+    spawnertype: "COW"
+    displayname: "Cow Spawner"
+    buy: 100000
+    sell: -1
+  4:
+    material: "SPAWNER"
+    spawnertype: "CREEPER"
+    displayname: "Creeper Spawner"
+    buy: 150000
+    sell: -1
+  5:
+    material: "SPAWNER"
+    spawnertype: "ENDERMAN"
+    displayname: "Enderman Spawner"
+    buy: 175000
+    sell: -1
+  6:
+    material: "SPAWNER"
+    spawnertype: "HORSE"
+    displayname: "Horse Spawner"
+    buy: 65000
+    sell: -1
+  7:
+    material: "SPAWNER"
+    spawnertype: "HUSK"
+    displayname: "Husk Spawner"
+    buy: 125000
+    sell: -1
+  8:
+    material: "SPAWNER"
+    spawnertype: "IRON_GOLEM"
+    displayname: "Iron Golem Spawner"
+    buy: 1000000
+    sell: -1
+  9:
+    material: "SPAWNER"
+    spawnertype: "MUSHROOM_COW"
+    displayname: "Mushroom Cow Spawner"
+    buy: 125000
+    sell: -1
+  10:
+    material: "SPAWNER"
+    spawnertype: "PANDA"
+    displayname: "Panda Spawner"
+    buy: 50000
+    sell: -1
+  11:
+    material: "SPAWNER"
+    spawnertype: "PARROT"
+    displayname: "Parrot Spawner"
+    buy: 30000
+    sell: -1
+  12:
+    material: "SPAWNER"
+    spawnertype: "PHANTOM"
+    displayname: "Phantom Spawner"
+    buy: 250000
+    sell: -1
+  13:
+    material: "SPAWNER"
+    spawnertype: "piglin_brute"
+    displayname: "Piglin Brute Spawner"
+    buy: 105000
+    sell: -1
+  14:
+    material: "SPAWNER"
+    spawnertype: "piglin"
+    displayname: "Piglin Spawner"
+    buy: 275000
+    sell: -1
+  15:
+    material: "SPAWNER"
+    spawnertype: "RABBIT"
+    displayname: "Rabbit Spawner"
+    buy: 45000
+    sell: -1
+  16:
+    material: "SPAWNER"
+    spawnertype: "SHEEP"
+    displayname: "Sheep Spawner"
+    buy: 45000
+    sell: -1
+  17:
+    material: "SPAWNER"
+    spawnertype: "SHULKER"
+    displayname: "Shulker Spawner"
+    buy: 500000
+    sell: -1
+  18:
+    material: "SPAWNER"
+    spawnertype: "SKELETON"
+    displayname: "Skeleton Spawner"
+    buy: 125000
+    sell: -1
+  19:
+    material: "SPAWNER"
+    spawnertype: "SLIME"
+    displayname: "Slime Spawner"
+    buy: 550000
+    sell: -1
+  20:
+    material: "SPAWNER"
+    spawnertype: "SPIDER"
+    displayname: "Spider Spawner"
+    buy: 45000
+    sell: -1
+  21:
+    material: "SPAWNER"
+    spawnertype: "SQUID"
+    displayname: "Squid Spawner"
+    buy: 100000
+    sell: -1
+  22:
+    material: "SPAWNER"
+    spawnertype: "STRIDER"
+    displayname: "Strider Spawner"
+    buy: 45000
+    sell: -1
+  23:
+    material: "SPAWNER"
+    spawnertype: "WITCH"
+    displayname: "Witch Spawner"
+    buy: 500000
+    sell: -1
+  24:
+    material: "SPAWNER"
+    spawnertype: "WOLF"
+    displayname: "Wolf Spawner"
+    buy: 250000
+    sell: -1
+  25:
+    material: "SPAWNER"
+    spawnertype: "ZOMBIE"
+    displayname: "Zombie Spawner"
+    buy: 120000
+    sell: -1
+  26:
+    material: "SPAWNER"
+    spawnertype: "ZOMBIFIED_PIGLIN"
+    displayname: "Zombified Piglin Spawner"
+    buy: 120000
+    sell: -1
+
+
+#==================== Workstations ====================#
+
+Workstations:
+  1:
+    material: "BARREL"
+    displayname: "Barrel"
+    buy: 8.17
+    sell: -1
+  2:
+    material: "BLAST_FURNACE"
+    displayname: "Blast Furnace"
+    buy: 118.61
+    sell: -1
+  3:
+    material: "BREWING_STAND"
+    displayname: "Brewing Stand"
+    buy: 7.4
+    sell: -1
+  4:
+    material: "CARTOGRAPHY_TABLE"
+    displayname: "Cartography Table"
+    buy: 4.86
+    sell: -1
+  5:
+    material: "COMPOSTER"
+    displayname: "Composter"
+    buy: 4.26
+    sell: -1
+  6:
+    material: "FLETCHING_TABLE"
+    displayname: "Fletching Table"
+    buy: 8.84
+    sell: -1
+  7:
+    material: "GRINDSTONE"
+    displayname: "Grindstone"
+    buy: 3.93
+    sell: -1
+  8:
+    material: "LECTERN"
+    displayname: "Lectern"
+    buy: 127.51
+    sell: -1
+  9:
+    material: "LOOM"
+    displayname: "Loom"
+    buy: 17.02
+    sell: -1
+  10:
+    material: "SMITHING_TABLE"
+    displayname: "Smithing Table"
+    buy: 48.74
+    sell: -1
+  11:
+    material: "SMOKER"
+    displayname: "Smoker"
+    buy: 18.6
+    sell: -1
+  12:
+    material: "STONECUTTER"
+    displayname: "Stonecutter"
+    buy: 24.3
+    sell: -1
+
+#==================== SpawnEggs ====================#
+
+SpawnEggs:
+  1:
+    material: "BAT_SPAWN_EGG"
+    displayname: "Bat Spawn Egg"
+    buy: 999999999
+    sell: -1
+  2:
+    material: "BLAZE_SPAWN_EGG"
+    displayname: "Blaze Spawn Egg"
+    buy: 999999999
+    sell: -1
+  3:
+    material: "CAT_SPAWN_EGG"
+    displayname: "Cat Spawn Egg"
+    buy: 999999999
+    sell: -1
+  4:
+    material: "CAVE_SPIDER_SPAWN_EGG"
+    displayname: "Cave Spider Spawn Egg"
+    buy: 999999999
+    sell: -1
+  5:
+    material: "CHICKEN_SPAWN_EGG"
+    displayname: "Chicken Spawn Egg"
+    buy: 999999999
+    sell: -1
+  6:
+    material: "COD_SPAWN_EGG"
+    displayname: "Cod Spawn Egg"
+    buy: 999999999
+    sell: -1
+  7:
+    material: "COW_SPAWN_EGG"
+    displayname: "Cow Spawn Egg"
+    buy: 999999999
+    sell: -1
+  8:
+    material: "CREEPER_SPAWN_EGG"
+    displayname: "Creeper Spawn Egg"
+    buy: 999999999
+    sell: -1
+  9:
+    material: "DOLPHIN_SPAWN_EGG"
+    displayname: "Dolphin Spawn Egg"
+    buy: 999999999
+    sell: -1
+  10:
+    material: "DONKEY_SPAWN_EGG"
+    displayname: "Donkey Spawn Egg"
+    buy: 999999999
+    sell: -1
+  11:
+    material: "DROWNED_SPAWN_EGG"
+    displayname: "Drowned Spawn Egg"
+    buy: 999999999
+    sell: -1
+  12:
+    material: "ELDER_GUARDIAN_SPAWN_EGG"
+    displayname: "Elder Guardian Spawn Egg"
+    buy: 999999999
+    sell: -1
+  13:
+    material: "ENDERMAN_SPAWN_EGG"
+    displayname: "Enderman Spawn Egg"
+    buy: 999999999
+    sell: -1
+  14:
+    material: "ENDERMITE_SPAWN_EGG"
+    displayname: "Endermite Spawn Egg"
+    buy: 999999999
+    sell: -1
+  15:
+    material: "EVOKER_SPAWN_EGG"
+    displayname: "Evoker Spawn Egg"
+    buy: 999999999
+    sell: -1
+  16:
+    material: "FOX_SPAWN_EGG"
+    displayname: "Fox Spawn Egg"
+    buy: 999999999
+    sell: -1
+  17:
+    material: "GHAST_SPAWN_EGG"
+    displayname: "Ghast Spawn Egg"
+    buy: 999999999
+    sell: -1
+  18:
+    material: "GUARDIAN_SPAWN_EGG"
+    displayname: "Guardian Spawn Egg"
+    buy: 999999999
+    sell: -1
+  19:
+    material: "HOGLIN_SPAWN_EGG"
+    displayname: "Hoglin Spawn Egg"
+    buy: 999999999
+    sell: -1
+  20:
+    material: "HORSE_SPAWN_EGG"
+    displayname: "Horse Spawn Egg"
+    buy: 999999999
+    sell: -1
+  21:
+    material: "HUSK_SPAWN_EGG"
+    displayname: "Husk Spawn Egg"
+    buy: 999999999
+    sell: -1
+  22:
+    material: "LLAMA_SPAWN_EGG"
+    displayname: "Llama Spawn Egg"
+    buy: 999999999
+    sell: -1
+  23:
+    material: "MAGMA_CUBE_SPAWN_EGG"
+    displayname: "Magma Cube Spawn Egg"
+    buy: 999999999
+    sell: -1
+  24:
+    material: "MOOSHROOM_SPAWN_EGG"
+    displayname: "Mooshroom Spawn Egg"
+    buy: 999999999
+    sell: -1
+  25:
+    material: "MULE_SPAWN_EGG"
+    displayname: "Mule Spawn Egg"
+    buy: 999999999
+    sell: -1
+  26:
+    material: "OCELOT_SPAWN_EGG"
+    displayname: "Ocelot Spawn Egg"
+    buy: 999999999
+    sell: -1
+  27:
+    material: "PANDA_SPAWN_EGG"
+    displayname: "Panda Spawn Egg"
+    buy: 999999999
+    sell: -1
+  28:
+    material: "PARROT_SPAWN_EGG"
+    displayname: "Parrot Spawn Egg"
+    buy: 999999999
+    sell: -1
+  29:
+    material: "PHANTOM_SPAWN_EGG"
+    displayname: "Phantom Spawn Egg"
+    buy: 999999999
+    sell: -1
+  30:
+    material: "PIG_SPAWN_EGG"
+    displayname: "Pig Spawn Egg"
+    buy: 999999999
+    sell: -1
+  31:
+    material: "PIGLIN_BRUTE_SPAWN_EGG"
+    displayname: "Pig Brute Spawn Egg"
+    buy: 999999999
+    sell: -1
+  32:
+    material: "PIGLIN_SPAWN_EGG"
+    displayname: "Piglin Spawn Egg"
+    buy: 999999999
+    sell: -1
+  33:
+    material: "PILLAGER_SPAWN_EGG"
+    displayname: "Pillager Spawn Egg"
+    buy: 999999999
+    sell: -1
+  34:
+    material: "POLAR_BEAR_SPAWN_EGG"
+    displayname: "Polar Bear Spawn Egg"
+    buy: 999999999
+    sell: -1
+  35:
+    material: "PUFFERFISH_SPAWN_EGG"
+    displayname: "Pufferfish Spawn Egg"
+    buy: 999999999
+    sell: -1
+  36:
+    material: "RABBIT_SPAWN_EGG"
+    displayname: "Rabbit Spawn Egg"
+    buy: 999999999
+    sell: -1
+  37:
+    material: "RAVAGER_SPAWN_EGG"
+    displayname: "Ravager Spawn Egg"
+    buy: 999999999
+    sell: -1
+  38:
+    material: "SALMON_SPAWN_EGG"
+    displayname: "Salmon Spawn Egg"
+    buy: 999999999
+    sell: -1
+  39:
+    material: "SHEEP_SPAWN_EGG"
+    displayname: "Sheep Spawn Egg"
+    buy: 999999999
+    sell: -1
+  40:
+    material: "SHULKER_SPAWN_EGG"
+    displayname: "Shulker Spawn Egg"
+    buy: 999999999
+    sell: -1
+  41:
+    material: "SILVERFISH_SPAWN_EGG"
+    displayname: "Silverfish Spawn Egg"
+    buy: 999999999
+    sell: -1
+  42:
+    material: "SKELETON_HORSE_SPAWN_EGG"
+    displayname: "Skeleton Horse Spawn Egg"
+    buy: 999999999
+    sell: -1
+  43:
+    material: "SKELETON_SPAWN_EGG"
+    displayname: "Skeleton Spawn Egg"
+    buy: 999999999
+    sell: -1
+  44:
+    material: "SLIME_SPAWN_EGG"
+    displayname: "Slime Spawn Egg"
+    buy: 999999999
+    sell: -1
+  45:
+    material: "SPIDER_SPAWN_EGG"
+    displayname: "Spider Spawn Egg"
+    buy: 999999999
+    sell: -1
+  46:
+    material: "SQUID_SPAWN_EGG"
+    displayname: "Squid Spawn Egg"
+    buy: 999999999
+    sell: -1
+  47:
+    material: "STRAY_SPAWN_EGG"
+    displayname: "Stray Spawn Egg"
+    buy: 999999999
+    sell: -1
+  48:
+    material: "STRIDER_SPAWN_EGG"
+    displayname: "Strider Spawn Egg"
+    buy: 999999999
+    sell: -1
+  49:
+    material: "TRADER_LLAMA_SPAWN_EGG"
+    displayname: "Trader Llama Spawn Egg"
+    buy: 999999999
+    sell: -1
+  50:
+    material: "TROPICAL_FISH_SPAWN_EGG"
+    displayname: "Tropical Fish Spawn Egg"
+    buy: 999999999
+    sell: -1
+  51:
+    material: "TURTLE_SPAWN_EGG"
+    displayname: "Turtle Spawn Egg"
+    buy: 999999999
+    sell: -1.75
+  52:
+    material: "VEX_SPAWN_EGG"
+    displayname: "Vex Spawn Egg"
+    buy: 999999999
+    sell: -1
+  53:
+    material: "VILLAGER_SPAWN_EGG"
+    displayname: "Villager Spawn Egg"
+    buy: 999999999
+    sell: -1
+  54:
+    material: "VINDICATOR_SPAWN_EGG"
+    displayname: "Vindicator Spawn Egg"
+    buy: 999999999
+    sell: -1
+  55:
+    material: "WANDERING_TRADER_SPAWN_EGG"
+    displayname: "Wandering Trader Spawn Egg"
+    buy: 999999999
+    sell: -1
+  56:
+    material: "WITCH_SPAWN_EGG"
+    displayname: "Witch Spawn Egg"
+    buy: 999999999
+    sell: -1
+  57:
+    material: "WITHER_SKELETON_SPAWN_EGG"
+    displayname: "Wither Skeleton Spawn Egg"
+    buy: 999999999
+    sell: -1
+  58:
+    material: "WOLF_SPAWN_EGG"
+    displayname: "Wolf Spawn Egg"
+    buy: 999999999
+    sell: -1
+  59:
+    material: "ZOGLIN_SPAWN_EGG"
+    displayname: "Zoglin Spawn Egg"
+    buy: 999999999
+    sell: -1
+  60:
+    material: "ZOMBIE_HORSE_SPAWN_EGG"
+    displayname: "Zombie Horse Spawn Egg"
+    buy: 999999999
+    sell: -1
+  61:
+    material: "ZOMBIE_SPAWN_EGG"
+    displayname: "Zombie Spawn Egg"
+    buy: 999999999
+    sell: -1
+  62:
+    material: "ZOMBIE_VILLAGER_SPAWN_EGG"
+    displayname: "Zombie Villager Spawn Egg"
+    buy: 999999999
+    sell: -1
+  63:
+    material: "ZOMBIFIED_PIGLIN_SPAWN_EGG"
+    displayname: "Zombified Piglin Spawn Egg"
+    buy: 999999999
+    sell: -1
