@@ -1835,7 +1835,7 @@ Ores:
     material: "ANCIENT_DEBRIS"
     displayname: "Anchient Debris"
     buy: 450
-    sell: 450
+    sell: 400
   2:
     material: "COAL"
     displayname: "Coal"
@@ -1880,7 +1880,7 @@ Ores:
     material: "IRON_BLOCK"
     displayname: "Block of Iron"
     buy: 54
-    sell: 64
+    sell: 54
   11:
     material: "IRON_INGOT"
     displayname: "Iron Ingot"
@@ -1889,23 +1889,23 @@ Ores:
   12:
     material: "LAPIS_BLOCK"
     displayname: "Lapis Lazuli Block"
-    buy: 136.44
-    sell: 50.99
+    buy: 126
+    sell: 126
   13:
     material: "LAPIS_LAZULI"
     displayname: "Lapis Lazuli"
-    buy: 14.44
-    sell: 14.44
+    buy: 14
+    sell: 14
   14:
     material: "NETHERITE_BLOCK"
     displayname: "Block of Netherite"
-    buy: 2600
-    sell: 2600
+    buy: 20000
+    sell: 20000
   15:
     material: "NETHERITE_INGOT"
     displayname: "Netherite Ingot"
-    buy: 288
-    sell: 288
+    buy: 2222
+    sell: 2222
   16:
     material: "QUARTZ"
     displayname: "Nether Quartz"
